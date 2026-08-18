@@ -1,4 +1,4 @@
-thickness = int(input("Enter the thickness (must be an odd number): "))  # This must be an odd number
+thickness = int(input("Enter the thickness (must be an odd number): "))  # this must be odd no.
 c = 'H'
 
 # Top Cone
