@@ -8,6 +8,7 @@ all_combinations = list(combinations(range(n), k))
 
 count = 0
 
+
 for combo in all_combinations:
     for index in combo:
         if letters[index] == 'a':
