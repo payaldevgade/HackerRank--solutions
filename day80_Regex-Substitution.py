@@ -10,5 +10,6 @@ def replace_symbols(match):
 n = int(input("Enter number of lines: "))
 
 for _ in range(n):
+    
     line = input("Enter line: ")
     print(re.sub(r'(?<= )(&&|\|\|)(?= )', replace_symbols, line))
