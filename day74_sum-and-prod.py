@@ -6,6 +6,7 @@ n, m = map(int, input("Enter rows and columns: ").split())
 arr = []
 
 for _ in range(n):
+    
     row = list(map(int, input("Enter row: ").split()))
     arr.append(row)
 
