@@ -16,4 +16,5 @@ sum_result = np.sum(arr, axis=0)
 product_result = np.prod(sum_result)
 
 print("Sum along axis 0:", sum_result)
+
 print("Product:", product_result)
