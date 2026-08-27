@@ -8,6 +8,7 @@ for _ in range(x):
         map(float, input("Enter marks for subject: ").split())
     )
     marks.append(subject_marks)
+    
 
 print("Average marks:")
 
