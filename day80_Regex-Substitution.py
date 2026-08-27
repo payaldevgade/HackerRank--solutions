@@ -2,6 +2,7 @@ import re
 
 
 def replace_symbols(match):
+    
     if match.group(0) == '&&':
         return 'and'
     else:
