@@ -1,0 +1,25 @@
+from html.parser import HTMLParser
+
+class MyHTMLParser(HTMLParser):
+
+    def handle_starttag(self, tag, attrs):
+        print(tag)
+
+        for attr, value in attrs:
+            print("->", attr, ">", value)
+
+    def handle_startendtag(self, tag, attrs):
+        print(tag)
+
+        for attr, value in attrs:
+            print("->", attr, ">", value)
+
+n = int(input("Enter number of lines: "))
+
+html = ""
+
+for _ in range(n):
+    html += input("Enter HTML: ") + "\n"
+
+parser = MyHTMLParser()
+parser.feed(html)
