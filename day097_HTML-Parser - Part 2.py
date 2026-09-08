@@ -15,6 +15,7 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         
         if data != '\n':
+            
             print(">>> Data")
             print(data)
 
