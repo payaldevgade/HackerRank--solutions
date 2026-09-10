@@ -33,6 +33,7 @@ def print_from_stream(n, stream=None):
 q = int(input("Enter number of queries: "))
 
 for _ in range(q):
+    
     stream_name, n = input("Enter stream and number: ").split()
     n = int(n)
 
