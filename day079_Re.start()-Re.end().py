@@ -2,6 +2,7 @@ import re
 
 
 string = input("Enter the string: ")
+
 sub_string = input("Enter the substring: ")
 
 matches = re.finditer(f'(?={sub_string})', string)
