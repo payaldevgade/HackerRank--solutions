@@ -1,5 +1,6 @@
 n = int(input("Enter number of students: "))
 
+
 student_marks = {}
 
 for _ in range(n):
