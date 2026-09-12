@@ -5,6 +5,7 @@ student_marks = {}
 
 for _ in range(n):
     data = input("Enter name and marks: ").split()
+    
 
     name = data[0]
     marks = list(map(float, data[1:]))
