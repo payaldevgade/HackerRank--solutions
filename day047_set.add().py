@@ -1,5 +1,6 @@
 n = int(input("Enter number of stamps: "))
 
+
 countries = set()
 
 for _ in range(n):
