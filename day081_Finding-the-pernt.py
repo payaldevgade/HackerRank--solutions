@@ -16,4 +16,5 @@ query_name = input("Enter student name to search: ")
 
 average = sum(student_marks[query_name]) / len(student_marks[query_name])
 
+
 print(f"Average marks: {average:.2f}")
