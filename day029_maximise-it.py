@@ -5,6 +5,7 @@ k, m = map(int, input("Enter K and M: ").split())
 lists = []
 
 for i in range(k):
+    
     data = list(map(int, input(f"Enter list {i+1}: ").split()))
     lists.append(data[1:])   # Ignore the first number
 
