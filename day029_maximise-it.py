@@ -12,6 +12,7 @@ for i in range(k):
 maximum = 0
 
 for values in product(*lists):
+    
     total = sum(x**2 for x in values) % m
     maximum = max(maximum, total)
 
