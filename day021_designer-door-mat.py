@@ -9,6 +9,7 @@ for i in range(N // 2):
     print(pattern.center(M, "-"))
 
 # Middle line
+
 print("WELCOME".center(M, "-"))
 
 # Bottom half
