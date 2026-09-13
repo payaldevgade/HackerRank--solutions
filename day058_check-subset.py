@@ -9,5 +9,6 @@ for _ in range(T):
 
     m = int(input("Enter number of elements in B: "))
     B = set(map(int, input("Enter elements of B: ").split()))
+    
 
     print("Is A a subset of B?", A.issubset(B))
