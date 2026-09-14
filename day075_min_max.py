@@ -1,5 +1,6 @@
 import numpy as np
 
+
 n, m = map(int, input("Enter rows and columns: ").split())
 
 arr = []
