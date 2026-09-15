@@ -45,6 +45,7 @@ C = Points(*map(float, input("Enter point C (x y z): ").split()))
 D = Points(*map(float, input("Enter point D (x y z): ").split()))
 
 # Create vectors
+
 AB = B - A
 BC = C - B
 CD = D - C
