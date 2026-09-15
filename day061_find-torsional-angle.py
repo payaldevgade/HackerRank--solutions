@@ -8,6 +8,7 @@ class Points:
         self.z = z
 
     def __sub__(self, no):
+        
         return Points(
             self.x - no.x,
             self.y - no.y,
