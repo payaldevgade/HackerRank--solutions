@@ -1,6 +1,7 @@
 from collections import OrderedDict
 
 n = int(input(" enter number of items:"))
+
 items = OrderedDict()
 
 for _ in range(n):
