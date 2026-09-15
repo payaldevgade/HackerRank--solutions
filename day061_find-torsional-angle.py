@@ -16,6 +16,7 @@ class Points:
         )
 
     def dot(self, no):
+        
         return (
             self.x * no.x +
             self.y * no.y +
