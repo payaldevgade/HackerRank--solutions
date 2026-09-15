@@ -10,4 +10,5 @@ for _ in range(n):
     items[name] = items.get(name, 0) + int(price)
 
 for name, price in items.items():
+    
     print(name, price)
