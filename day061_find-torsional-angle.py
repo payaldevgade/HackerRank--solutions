@@ -24,6 +24,7 @@ class Points:
         )
 
     def cross(self, no):
+        
         return Points(
             self.y * no.z - self.z * no.y,
             self.z * no.x - self.x * no.z,
