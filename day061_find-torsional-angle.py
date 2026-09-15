@@ -39,8 +39,6 @@ class Points:
             self.z ** 2
         )
 
-
-# Input
 A = Points(*map(float, input("Enter point A (x y z): ").split()))
 B = Points(*map(float, input("Enter point B (x y z): ").split()))
 C = Points(*map(float, input("Enter point C (x y z): ").split()))
