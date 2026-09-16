@@ -1,5 +1,4 @@
 import re
-
 string = input("Enter the string: ")
 
 sub_string = input("Enter the substring: ")
