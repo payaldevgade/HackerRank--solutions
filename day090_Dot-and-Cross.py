@@ -13,6 +13,7 @@ for i in range(n):
 
 # Second matrix
 for i in range(n):
+    
     row = list(map(int, input(f"Enter B row {i + 1}: ").split()))
     B.append(row)
 
