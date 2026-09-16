@@ -1,6 +1,5 @@
 import numpy as np
 
-
 n = int(input("Enter the size of matrix: "))
 
 matrix = []
