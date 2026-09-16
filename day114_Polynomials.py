@@ -1,4 +1,3 @@
-
 import numpy
 
 coefficients = list(map(float, input("Enter polynomial coefficients: ").split()))
