@@ -13,6 +13,7 @@ n = int(input("Enter number of rational numbers: "))
 fracs = []
 
 for i in range(n):
+    
     numerator, denominator = map(
         int,
         input(f"Enter numerator and denominator for fraction {i + 1}: ").split()
