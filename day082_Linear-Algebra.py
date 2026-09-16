@@ -9,4 +9,5 @@ for i in range(n):
     matrix.append(row)
 
 determinant = np.linalg.det(matrix)
+
 print(f"Determinant: {round(determinant, 2)}")
