@@ -16,6 +16,7 @@ class MyHTMLParser(HTMLParser):
         
         if data != '\n':
             
+            
             print(">>> Data")
             print(data)
 
