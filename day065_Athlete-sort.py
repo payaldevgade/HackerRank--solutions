@@ -3,6 +3,7 @@ n, m = map(int, input("Enter number of athletes and attributes: ").split())
 data = []
 
 for _ in range(n):
+    
     row = list(map(int, input("Enter athlete details: ").split()))
     data.append(row)
 
