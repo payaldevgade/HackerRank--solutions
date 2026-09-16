@@ -6,8 +6,7 @@ matrix = []
 
 for i in range(n):
     
-    
-    row = list(map(float, input(f"Enter row {i + 1}: ").split()))
+     row = list(map(float, input(f"Enter row {i + 1}: ").split()))
     matrix.append(row)
     
 determinant = np.linalg.det(matrix)
