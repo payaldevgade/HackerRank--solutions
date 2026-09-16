@@ -5,7 +5,6 @@ n = int(input("Enter the size of matrix: "))
 A = []
 B = []
 
-# First matrix
 for i in range(n):
     
     row = list(map(int, input(f"Enter A row {i + 1}: ").split()))
