@@ -12,7 +12,6 @@ k = int(input("Enter attribute index to sort by: "))
 
 data.sort(key=lambda row: row[k])
 
-
 print("Sorted data:")
 
 for row in data:
