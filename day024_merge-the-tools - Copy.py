@@ -11,7 +11,6 @@ def merge_the_tools(string, k):
 
         print(result)
 
-# Main Program
 string = input("Enter the string: ")
 k = int(input("Enter the value of k: "))
 
