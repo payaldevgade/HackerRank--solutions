@@ -7,5 +7,6 @@ for _ in range(T):
     
     if re.match(r'^[789]\d{9}$', s):
         print("YES")
+        
     else:
         print("NO")
