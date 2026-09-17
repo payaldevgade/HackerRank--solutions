@@ -10,6 +10,7 @@ def merge_the_tools(string, k):
                 result += ch
 
         print(result)
+        
 
 string = input("Enter the string: ")
 k = int(input("Enter the value of k: "))
