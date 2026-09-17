@@ -1,5 +1,6 @@
 import re
 
+
 T = int(input("Enter number of inputs: "))
 
 for _ in range(T):
