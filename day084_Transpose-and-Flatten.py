@@ -1,4 +1,5 @@
 import numpy as np
+
 rows, columns = map(int, input("Enter rows and columns: ").split())
 
 matrix = []
