@@ -9,5 +9,6 @@ b = set(map(int, input("Enter the elements of set B: ").split()))
 result = a.symmetric_difference(b)
 
 print("Symmetric difference:")
+
 for i in sorted(result):
     print(i)
