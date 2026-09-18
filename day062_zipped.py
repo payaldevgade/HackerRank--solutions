@@ -4,6 +4,7 @@ marks = []
 for _ in range(x):
     
     subject_marks = list(
+        
         map(float, input("Enter marks for subject: ").split())
     )
     marks.append(subject_marks)
