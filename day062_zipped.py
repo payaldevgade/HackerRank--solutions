@@ -13,6 +13,7 @@ for _ in range(x):
 print("Average marks:")
 
 for student_marks in zip(*marks):
+    
     average = sum(student_marks) / x
     print(average)
     
