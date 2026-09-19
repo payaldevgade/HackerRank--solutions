@@ -5,7 +5,6 @@ for i in range(N // 2):
     pattern = ".|." * (2 * i + 1)
     print(pattern.center(M, "-"))
 
-
 print("WELCOME".center(M, "-"))
 
 # Bottom half
