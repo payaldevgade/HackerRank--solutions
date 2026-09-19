@@ -1,4 +1,4 @@
-# Read input
+
 
 N, M = map(int, input("Enter N and M: ").split())
 
