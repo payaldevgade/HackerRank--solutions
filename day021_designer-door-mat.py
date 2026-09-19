@@ -6,7 +6,6 @@ for i in range(N // 2):
     print(pattern.center(M, "-"))
 
 
-
 print("WELCOME".center(M, "-"))
 
 # Bottom half
