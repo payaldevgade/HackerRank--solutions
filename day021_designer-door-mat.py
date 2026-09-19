@@ -1,6 +1,6 @@
 N, M = map(int, input("Enter N and M: ").split())
 
-# Top half
+
 
 
 for i in range(N // 2):
