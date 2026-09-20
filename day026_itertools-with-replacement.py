@@ -5,6 +5,6 @@ k = int(k)
 
 s = "".join(sorted(s))
 
-# Generate and print combinations with 
+# Generate and print combinations 
 for i in combinations_with_replacement(s, k):
     print("".join(i))
