@@ -1,6 +1,6 @@
 from itertools import combinations_with_replacement
 
-# Input
+# 
 s, k = input("Enter the string and value of k (e.g., HACK 2): ").split()
 k = int(k)
 
