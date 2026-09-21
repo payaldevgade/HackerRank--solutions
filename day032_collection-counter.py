@@ -11,6 +11,7 @@ customers = int(input(" enter number of customers:"))
 money = 0
 
 for _ in range(customers):
+    
     size, price = map(int, input(" enter customer request (size price):").split())
 
     if shoe_count[size] > 0:
