@@ -2,7 +2,6 @@ import xml.etree.ElementTree as etree
 
 maxdepth = 0
 
-
 def depth(elem, level):
     global maxdepth
 
