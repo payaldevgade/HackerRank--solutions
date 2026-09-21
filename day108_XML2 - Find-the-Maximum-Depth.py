@@ -13,7 +13,6 @@ def depth(elem, level):
     for child in elem:
         depth(child, level)
 
-
 n = int(input("Enter number of XML lines: "))
 
 xml = ""
