@@ -1,6 +1,7 @@
 class EvenStream(object):
     
     def __init__(self):
+        
         self.current = 0
 
     def get_next(self):
