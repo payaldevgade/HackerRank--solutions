@@ -42,6 +42,7 @@ for _ in range(q):
     if stream_name == "even":
         
         print_from_stream(n)
+        
     else:
         print_from_stream(n, OddStream())
 
