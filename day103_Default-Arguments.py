@@ -1,4 +1,4 @@
-class EvenStream(object)
+class EvenStream(object):
     
     def __init__(self):
         
