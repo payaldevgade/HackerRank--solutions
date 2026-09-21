@@ -13,6 +13,7 @@ class EvenStream(object):
 class OddStream(object):
     
     def __init__(self):
+        
         self.current = 1
 
     def get_next(self):
