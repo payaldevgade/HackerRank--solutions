@@ -11,6 +11,7 @@ for i in range(n):
     array1.append(row)
 
 for i in range(n):
+    
     row = list(map(int, input(f"Enter array 2 row {i + 1}: ").split()))
     array2.append(row)
 
