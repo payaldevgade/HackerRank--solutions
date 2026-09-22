@@ -8,7 +8,5 @@ def split_and_join(line):
 if __name__ == '__main__':
 
 
-
-
     
     line = input("Enter a string to split and join: ")
