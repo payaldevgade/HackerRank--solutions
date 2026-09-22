@@ -6,6 +6,7 @@ array1 = []
 array2 = []
 
 for i in range(n):
+    
     row = list(map(int, input(f"Enter array 1 row {i + 1}: ").split()))
     array1.append(row)
 
