@@ -5,7 +5,6 @@ n, m = map(int, input("Enter rows and columns: ").split())
 array1 = []
 array2 = []
 
-# First array
 for i in range(n):
     row = list(map(int, input(f"Enter array 1 row {i + 1}: ").split()))
     array1.append(row)
