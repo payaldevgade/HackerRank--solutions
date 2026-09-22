@@ -1,6 +1,6 @@
 m = int(input("Enter the size of set A: "))
 
-a = set(map(int, input("Enter the elements of set A: ").split()))
+a = set(map(int, input("Enter the elements of set A: ").split())
 
 n = int(input("Enter the size of set B: "))
 
