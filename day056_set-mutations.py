@@ -10,6 +10,7 @@ for _ in range(N):
     other = set(map(int, input("Enter elements of other set: ").split()))
 
     if operation == "update":
+
         A.update(other)
 
     elif operation == "intersection_update":
