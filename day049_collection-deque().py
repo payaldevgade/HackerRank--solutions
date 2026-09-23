@@ -1,4 +1,4 @@
-from collections import d
+from collections import de
 
 d = deque()
 
