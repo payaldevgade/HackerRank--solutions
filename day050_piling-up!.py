@@ -1,5 +1,6 @@
 from collections import deque
 
+
 T = int(input("Enter number of test cases: "))
 
 for _ in range(T):
