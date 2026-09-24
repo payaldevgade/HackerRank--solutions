@@ -26,6 +26,7 @@ class MyHTMLParser(HTMLParser):
             print(">>> Data")
             print(data)
 
+
 n = int(input("Enter number of lines: "))
 
 html = ''
