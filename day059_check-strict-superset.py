@@ -1,6 +1,5 @@
 A = set(map(int, input("Enter elements of A: ").split()))
 
-
 n = int(input("Enter number of other sets: "))
 
 result = True
