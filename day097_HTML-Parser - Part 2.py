@@ -14,6 +14,7 @@ class MyHTMLParser(HTMLParser):
             print(">>> Single-line Comment")
 
         print(data)
+        
 
     def handle_data(self, data):
         
