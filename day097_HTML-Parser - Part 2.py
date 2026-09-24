@@ -9,8 +9,7 @@ class MyHTMLParser(HTMLParser):
 
             print(">>> Multi-line Comment")
             
-            
-        else:
+       else:
             
             print(">>> Single-line Comment")
 
