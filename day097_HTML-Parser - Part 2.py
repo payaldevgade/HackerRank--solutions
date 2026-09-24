@@ -11,6 +11,7 @@ class MyHTMLParser(HTMLParser):
             print(">>> Multi-line Comment")
             
         else:
+            
             print(">>> Single-line Comment")
 
         print(data)
