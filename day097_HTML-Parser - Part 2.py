@@ -32,6 +32,7 @@ html = ''
 
 for _ in range(n):
     html += input("Enter HTML: ") + '\n'
+    
 
 parser = MyHTMLParser()
 parser.feed(html)
