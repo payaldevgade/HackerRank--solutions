@@ -27,6 +27,7 @@ n = int(input("Enter number of lines: "))
 
 html = ''
 
+
 for _ in range(n):
     html += input("Enter HTML: ") + '\n'
 
