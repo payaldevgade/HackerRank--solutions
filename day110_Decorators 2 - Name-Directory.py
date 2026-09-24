@@ -1,6 +1,5 @@
 import operator
 
-
 def person_lister(f):
     def inner(people):
         people.sort(key=operator.itemgetter(2))
