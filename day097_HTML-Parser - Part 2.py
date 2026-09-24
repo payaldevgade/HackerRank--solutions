@@ -4,7 +4,7 @@ class MyHTMLParser(HTMLParser):
     
 
     def handle_comment(self, data):
-        
+
         
         if '\n' in data:
 
