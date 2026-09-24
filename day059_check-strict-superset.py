@@ -10,5 +10,4 @@ for _ in range(n):
     if not (A > B):
         result = False
         
-
 print("Is A a strict superset of all sets?", result)
