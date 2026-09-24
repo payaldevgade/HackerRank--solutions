@@ -2,8 +2,7 @@ from html.parser import HTMLParser
 
 class MyHTMLParser(HTMLParser):
     
-
-    def handle_comment(self, data):
+   def handle_comment(self, data):
 
         
         if '\n' in data:
