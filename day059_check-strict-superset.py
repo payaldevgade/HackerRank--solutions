@@ -4,8 +4,6 @@ n = int(input("Enter number of other sets: "))
 
 result = True
 
-
-
 for _ in range(n):
     B = set(map(int, input("Enter elements of B: ").split()))
     
