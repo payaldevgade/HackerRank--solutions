@@ -7,7 +7,7 @@ class MyHTMLParser(HTMLParser):
         
         
         if '\n' in data:
-            
+
             print(">>> Multi-line Comment")
             
         else:
