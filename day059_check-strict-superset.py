@@ -1,5 +1,3 @@
-
-
 n = int(input("Enter number of other sets: "))
 
 result = True
