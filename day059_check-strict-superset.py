@@ -8,6 +8,7 @@ result = True
 for _ in range(n):
     B = set(map(int, input("Enter elements of B: ").split()))
 
+    
     if not (A > B):
         result = False
 
