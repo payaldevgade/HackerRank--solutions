@@ -1,4 +1,4 @@
-def count_substring(string, sub_string):
+def count_substring(string, sub_string)
     
     count = 0
 
