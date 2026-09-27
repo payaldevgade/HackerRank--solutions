@@ -11,5 +11,5 @@ print("Top 3 characters:")
 for char, frequency in result[:3]:
 
 
-    
+ 
     print(char, frequency)
