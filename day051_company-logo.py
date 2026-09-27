@@ -12,6 +12,5 @@ for char, frequency in result[:3]:
 
 
 
-
     
     print(char, frequency)
