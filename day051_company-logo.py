@@ -9,7 +9,6 @@ from collections import Counter
 
 
 
-
 s = input("Enter company name: ")
 
 count = Counter(s)
