@@ -4,6 +4,7 @@ def minion_game(string):
 
     kevin_score = 0
     stuart_score = 0
+
     n = len(string)
 
     for i in range(n):
