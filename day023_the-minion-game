@@ -30,5 +30,6 @@ def minion_game(string):
 
 
 # Main Program
+
 s = input("Enter the string: ").upper()
 minion_game(s)
