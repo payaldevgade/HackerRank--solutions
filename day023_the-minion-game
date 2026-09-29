@@ -17,6 +17,7 @@ def minion_game(string):
             stuart_score += n - i
 
     if kevin_score > stuart_score:
+
         print("Kevin", kevin_score)
     elif stuart_score > kevin_score:
         print("Stuart", stuart_score)
