@@ -1,4 +1,4 @@
-thickness = int(input("Enter the thickness (must be an odd number): "))  # this must be odd no.
+thickness = int(input("Enter the thickness (must be an odd number): "))  
 c = 'H'
 
 for i in range(thickness):
