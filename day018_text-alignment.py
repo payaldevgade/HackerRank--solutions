@@ -1,7 +1,6 @@
 thickness = int(input("Enter the thickness (must be an odd number): "))  # this must be odd no.
 c = 'H'
 
-# Top Cone
 for i in range(thickness):
     print((c*i).rjust(thickness-1) + c + (c*i).ljust(thickness-1))
 
