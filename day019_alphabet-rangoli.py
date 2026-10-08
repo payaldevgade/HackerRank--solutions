@@ -17,5 +17,6 @@ def print_rangoli(size):
     print("\n".join(lines[::-1] + lines[1:]))
 
 if __name__ == '__main__':
+    
     n = int(input("Enter the size of the rangoli: "))
     print_rangoli(n)
