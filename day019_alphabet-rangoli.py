@@ -8,6 +8,7 @@ def print_rangoli(size):
     lines = []
 
     for i in range(size):
+        
         left = alpha[size-1:i:-1]
         right = alpha[i:size]
         row = "-".join(left + right)
