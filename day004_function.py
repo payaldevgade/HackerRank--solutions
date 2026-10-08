@@ -5,6 +5,7 @@ def is_leap(year):
         
     elif year % 100 == 0:
         return False  
+        
     elif year % 4 == 0:
         return True
     else:
