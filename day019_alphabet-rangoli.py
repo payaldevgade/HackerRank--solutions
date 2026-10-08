@@ -1,6 +1,7 @@
 import string
 
 def print_rangoli(size):
+    
     alpha = string.ascii_lowercase
 
     width = 4 * size - 3
