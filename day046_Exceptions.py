@@ -1,6 +1,7 @@
 n = int(input("Enter number of test cases: "))
 
 for _ in range(n):
+    
     a, b = input("Enter two values: ").split()
 
     try:
