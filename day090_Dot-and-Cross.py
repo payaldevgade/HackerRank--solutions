@@ -8,6 +8,7 @@ B = []
 for i in range(n):
     
     row = list(map(int, input(f"Enter A row {i + 1}: ").split()))
+    
     A.append(row)
 
 for i in range(n):
