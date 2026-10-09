@@ -19,6 +19,7 @@ for _ in range(N):
         A.intersection_update(other)
 
     elif operation == "difference_update":
+        
         A.difference_update(other)
 
     elif operation == "symmetric_difference_update":
