@@ -15,6 +15,7 @@ for _ in range(N):
        A.update(other)
 
     elif operation == "intersection_update":
+        
         A.intersection_update(other)
 
     elif operation == "difference_update":
