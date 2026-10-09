@@ -23,6 +23,7 @@ for _ in range(N):
         A.difference_update(other)
 
     elif operation == "symmetric_difference_update":
+        
         A.symmetric_difference_update(other)
 
 print("Sum:", sum(A))
