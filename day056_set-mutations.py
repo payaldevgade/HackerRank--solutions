@@ -5,6 +5,7 @@ A = set(map(int, input("Enter elements of A: ").split()))
 N = int(input("Enter number of operations: "))
 
 for _ in range(N):
+    
     operation, size = input("Enter operation and size: ").split()
 
     other = set(map(int, input("Enter elements of other set: ").split()))
