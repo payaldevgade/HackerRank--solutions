@@ -7,6 +7,8 @@ pattern = r'(?<=[QWRTYPSDFGHJKLZXCVBNMqwrtypsdfghjklzxcvbnm])([AEIOUaeiou]{2,})(
 matches = re.findall(pattern, s)
 
 if matches:
+    
     print('\n'.join(matches))
 else:
+    
     print(-1)
