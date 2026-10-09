@@ -5,6 +5,7 @@ d = deque()
 n = int(input("Enter number of operations: "))
 
 for _ in range(n):
+    
     command = input("Enter operation: ").split()
 
     if command[0] == "append":
