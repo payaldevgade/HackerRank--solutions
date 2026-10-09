@@ -3,6 +3,7 @@ import numpy as np
 n = int(input("Enter the size of matrix: "))
 
 A = []
+
 B = []
 
 for i in range(n):
