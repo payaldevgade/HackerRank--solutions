@@ -17,9 +17,11 @@ for _ in range(n):
         d.appendleft(command[1])
 
     elif command[0] == "pop":
+        
         d.pop()
 
     elif command[0] == "popleft":
+        
         d.popleft()
 
 print("Final deque:", *d)
