@@ -9,6 +9,7 @@ for _ in range(n):
         print(result)
 
     except ZeroDivisionError:
+        
         print("Error Code: integer division or modulo by zero")
 
     except ValueError as e:
