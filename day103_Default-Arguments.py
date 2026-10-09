@@ -5,6 +5,7 @@ class EvenStream(object):
         self.current = 0
 
     def get_next(self):
+        
         to_return = self.current
         self.current += 2
         return to_return
