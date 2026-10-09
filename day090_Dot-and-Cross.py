@@ -14,6 +14,7 @@ for i in range(n):
 for i in range(n):
     
     row = list(map(int, input(f"Enter B row {i + 1}: ").split()))
+    
     B.append(row)
 
 A = np.array(A)
