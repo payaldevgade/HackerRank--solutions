@@ -46,5 +46,6 @@ for _ in range(q):
         print_from_stream(n)
         
     else:
+        
         print_from_stream(n, OddStream())
 
