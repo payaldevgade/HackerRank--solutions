@@ -12,6 +12,7 @@ for _ in range(n):
         d.append(command[1])
 
     elif command[0] == "appendleft":
+        
         d.appendleft(command[1])
 
     elif command[0] == "pop":
