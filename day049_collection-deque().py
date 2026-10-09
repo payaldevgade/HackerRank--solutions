@@ -9,6 +9,7 @@ for _ in range(n):
     command = input("Enter operation: ").split()
 
     if command[0] == "append":
+        
         d.append(command[1])
 
     elif command[0] == "appendleft":
