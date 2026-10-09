@@ -5,6 +5,7 @@ for _ in range(n):
     a, b = input("Enter two values: ").split()
 
     try:
+        
         result = int(a) // int(b)
         print(result)
 
