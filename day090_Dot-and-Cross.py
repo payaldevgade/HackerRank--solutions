@@ -18,6 +18,7 @@ for i in range(n):
     B.append(row)
 
 A = np.array(A)
+
 B = np.array(B)
 
 result = np.dot(A, B)
