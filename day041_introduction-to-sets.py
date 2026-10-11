@@ -8,5 +8,6 @@ if __name__ == '__main__':
     
     n = int(input(" enter a number"))
     arr = list(map(int, input(" enter a number").split()))
+    
     result = average(arr)
     print(result)
