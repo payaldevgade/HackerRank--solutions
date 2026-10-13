@@ -3,6 +3,7 @@ def print_formatted(number):
     width = len(bin(number)) - 2
 
     for i in range(1, number + 1):
+        
         decimal = str(i)
         octal = oct(i)[2:]
         hexadecimal = hex(i)[2:].upper()
