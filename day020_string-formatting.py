@@ -6,6 +6,7 @@ def print_formatted(number):
         
         decimal = str(i)
         octal = oct(i)[2:]
+        
         hexadecimal = hex(i)[2:].upper()
         binary = bin(i)[2:]
 
