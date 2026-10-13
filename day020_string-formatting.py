@@ -11,6 +11,7 @@ def print_formatted(number):
         binary = bin(i)[2:]
 
         print(
+            
             decimal.rjust(width),
             octal.rjust(width),
             hexadecimal.rjust(width),
