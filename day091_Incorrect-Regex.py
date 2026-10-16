@@ -15,6 +15,7 @@ for _ in range(T):
             print("False")
             
         else:
+            
             print("True")
 
     except re.error:
