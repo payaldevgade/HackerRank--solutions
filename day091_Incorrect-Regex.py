@@ -3,6 +3,7 @@ import re
 T = int(input("Enter number of test cases: "))
 
 for _ in range(T):
+    
     s = input("Enter regex: ")
 
     try:
