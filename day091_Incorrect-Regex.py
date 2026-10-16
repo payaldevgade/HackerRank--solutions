@@ -7,6 +7,7 @@ for _ in range(T):
     s = input("Enter regex: ")
 
     try:
+        
         re.compile(s)
 
         if re.search(r'(\*|\+|\?|\{.*\})[\*\+\?]', s):
