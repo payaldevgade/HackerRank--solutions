@@ -9,4 +9,5 @@ if match:
     print("First repeating alphanumeric character:", match.group(1))
     
 else:
+    
     print("No repeating alphanumeric character:", -1)
