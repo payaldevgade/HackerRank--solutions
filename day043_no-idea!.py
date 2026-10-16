@@ -9,6 +9,7 @@ B = set(map(int, input("Enter elements of set B: ").split()))
 happiness = 0
 
 for i in arr:
+    
     if i in A:
         happiness += 1
     elif i in B:
