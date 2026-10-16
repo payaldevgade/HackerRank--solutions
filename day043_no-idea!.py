@@ -15,6 +15,7 @@ for i in arr:
         happiness += 1
         
     elif i in B:
+        
         happiness -= 1
 
 print("Final happiness:", happiness)
