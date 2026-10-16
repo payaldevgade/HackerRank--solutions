@@ -13,6 +13,7 @@ for i in arr:
     if i in A:
         
         happiness += 1
+        
     elif i in B:
         happiness -= 1
 
