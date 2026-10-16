@@ -9,7 +9,6 @@ for _ in range(T):
     try:
         
         re.compile(s)
-
         
         if re.search(r'(\*|\+|\?|\{.*\})[\*\+\?]', s):
             print("False")
