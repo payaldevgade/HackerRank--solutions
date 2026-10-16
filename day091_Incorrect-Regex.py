@@ -19,4 +19,5 @@ for _ in range(T):
             print("True")
 
     except re.error:
+        
         print("False")
