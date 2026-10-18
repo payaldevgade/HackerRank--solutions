@@ -1,6 +1,5 @@
 T = int(input("Enter number of test cases: "))
 
-
 for _ in range(T):
     
     n = int(input("Enter number of elements in A: "))
