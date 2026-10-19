@@ -5,6 +5,7 @@ n, m = map(int, input(" enter values for n and m:").split())
 group_a = defaultdict(list)
 
 # Read Group A
+
 for i in range(1, n + 1):
     word = input(" enter word for group A:")
     group_a[word].append(i)
