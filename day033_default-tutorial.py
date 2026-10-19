@@ -11,6 +11,7 @@ for i in range(1, n + 1):
     group_a[word].append(i)
 
 # Read Group B
+
 for _ in range(m):
     word = input(" enter word for group B:")
 
