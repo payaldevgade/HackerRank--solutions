@@ -3,8 +3,7 @@ class MyHTMLParser(HTMLParser):
     
    def handle_comment(self, data):
 
-        
-        if '\n' in data:
+         if '\n' in data:
 
             print(">>> Multi-line Comment")
             
