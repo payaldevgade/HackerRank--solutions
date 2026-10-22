@@ -13,4 +13,5 @@ for _ in range(T):
     pattern = r'^[a-zA-Z][a-zA-Z0-9._-]*@[a-zA-Z]+\.[a-zA-Z]{1,3}$'
 
     if re.match(pattern, email_address):
+        
         print(name, email_text)
