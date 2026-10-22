@@ -3,6 +3,7 @@ n = int(input("Enter number of words: "))
 words = {}
 
 for _ in range(n):
+    
     word = input("Enter word: ")
 
     if word in words:
