@@ -1,4 +1,3 @@
-
 n = int(input("Enter number of elements: "))
 
 t = tuple(map(int, input("Enter the elements: ").split()))
