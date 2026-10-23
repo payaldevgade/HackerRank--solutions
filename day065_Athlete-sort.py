@@ -1,4 +1,3 @@
-
 n, m = map(int, input("Enter number of athletes and attributes: ").split())
 
 
