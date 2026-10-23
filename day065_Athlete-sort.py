@@ -4,7 +4,6 @@ data = []
 
 for _ in range(n):
     
-    
     row = list(map(int, input("Enter athlete details: ").split()))
     data.append(row)
     
