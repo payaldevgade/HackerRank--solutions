@@ -11,6 +11,7 @@ for _ in range(n):
         words[word] += 1
         
     else:
+        
         words[word] = 1
 
 print("Number of distinct words:", len(words))
