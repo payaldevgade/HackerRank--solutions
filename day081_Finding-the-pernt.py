@@ -3,6 +3,7 @@ n = int(input("Enter number of students: "))
 student_marks = {}
 
 for _ in range(n):
+    
     data = input("Enter name and marks: ").split()
     
     name = data[0]
