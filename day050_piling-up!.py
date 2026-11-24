@@ -20,6 +20,7 @@ for _ in range(T):
             cube = blocks.pop()
 
         if cube > top:
+            
             possible = False
             break
 
