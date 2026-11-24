@@ -11,6 +11,7 @@ for _ in range(T):
     possible = True
 
     while blocks:
+        
         if blocks[0] >= blocks[-1]:
             cube = blocks.popleft()
             
