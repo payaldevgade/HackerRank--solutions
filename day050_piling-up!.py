@@ -18,6 +18,7 @@ for _ in range(T):
             cube = blocks.popleft()
             
         else:
+            
             cube = blocks.pop()
 
         if cube > top:
