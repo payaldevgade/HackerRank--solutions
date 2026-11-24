@@ -24,6 +24,7 @@ for _ in range(T):
         top = cube
 
     if possible:
+        
         print("Yes")
     else:
         print("No")
