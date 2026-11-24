@@ -13,6 +13,7 @@ for _ in range(T):
     while blocks:
         
         if blocks[0] >= blocks[-1]:
+            
             cube = blocks.popleft()
             
         else:
